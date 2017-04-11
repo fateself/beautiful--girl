@@ -1,0 +1,370 @@
+* {
+    font-family: "Microsoft YaHei", 微软雅黑, 宋体, helvetica, "Hiragino Sans GB";
+}
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    background-color: #efefef;
+}
+body, textarea, input, button, select, keygen, legend {
+    color: rgb(102, 102, 102);
+    font: 12px/1.14 "Microsoft YaHei", 微软雅黑, 宋体, helvetica, "Hiragino Sans GB";
+    outline: 0px;
+}
+div {
+    display: block;
+}
+a {
+    color: #666;
+}
+a, button {
+    cursor: pointer;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+input {
+    width: 225px;
+    height: 30px;
+    padding-left: 0;
+    color: #333;
+    border: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+.g-hd {
+    height: 130px;
+}
+.g-in {
+    width: 1000px;
+    margin: 0 auto;
+}
+.m-logo {
+    float: left;
+    width: 300px;
+    height: 60px;
+    background: url(../images/jlt.png) -50px -18px no-repeat ;
+    margin-top: 35px;
+}
+.spritebg {
+    background: url(../images/jlt.png) no-repeat;
+}
+.m-tr-block {
+    float: right;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.m-tr-block a {
+    text-decoration: none;
+    color: #ca5252;
+}
+.g-bd {
+    position: relative;
+    width: 1000px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 3px #cbc9c9;
+}
+.top_tlt {
+    color: rgb(202, 82, 82);
+    padding: 44px 0px 0px 70px;
+    font: 24px "Microsoft YaHei", 微软雅黑, 宋体, helvetica, "Hiragino Sans GB";
+}
+.m-opr {
+    height: 620px;
+    margin-top: 40px;
+}
+.m-opr .u-input.firstelem {
+    overflow: visible;
+    z-index: 12;
+}
+.m-opr .u-input {
+    position: relative;
+    float: left;
+    height: 72px;
+    width: 100%;
+    overflow: hidden;
+}
+.m-opr .u-label {
+    float: left;
+    width: 340px;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #333;
+}
+.m-opr .i-inpt.act-clazz {
+    border-color: #4aafe9;
+}
+.m-opr .i-inpt {
+    float: left;
+    height: 44px;
+    width: 320px;
+    margin-top: 12px;
+    border: solid 1px #ddd;
+    font-size: 16px;
+    text-indent: 0.5em;
+    line-height: 44px \9;
+}
+.m-opr .m-sug {
+    position: absolute;
+    z-index: 990;
+    top: 57px;
+    left: 340px;
+    width: 320px;
+    overflow: hidden;
+    border: solid 1px #ccc;
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+.m-opr .u-tip {
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: -42px;
+    margin-top: 15px;
+    z-index: 11;
+    background: #fff;
+}
+.m-opr .u-clear {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-position: -325px -101px;
+    opacity: 0.5;
+}
+.auto-1487949991977 {
+    position: absolute;
+    border: 1px solid #aaa;
+    background: #fff;
+    text-align: left;
+    visibility: hidden;
+}
+.f-dn {
+    display: none !important;
+}
+.ncpt_widget {
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    touch-action: none;
+}
+.ncpt_widget .ncpt_contents {
+    position: absolute;
+    bottom: 0px;
+    z-index: 90;
+    left: 0;
+}
+.ncpt_widget .ncpt_puzzle_bg {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.ncpt_widget .ncpt_puzzle_fg {
+    position: absolute;
+    top: 0px;
+    z-index: 1005;
+}
+.ncpt_widget .ncpt_win_iframe {
+    z-index: -1;
+    border: 0px solid #cbcbcb;
+}
+.ncpt_widget .ncpt_slide_bg {
+    position: relative;
+    border: 1px solid #cbcbcb;
+    padding: 0 0;
+    text-align: center;
+    border-radius: 90px;
+    background: #F9F9F9;
+    margin: 0 auto;
+}
+.ncpt_widget .ncpt_slide_bg .ncpt_slide_fg {
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+.ncpt_widget .ncpt_hint_txt {
+    overflow: hidden;
+    color: #a8a8a8;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+.ncpt_widget .ncpt_pad {
+    width: 320px;
+    height: 100px;
+    position: relative;
+    display: none;
+}
+.ncpt_widget .ncpt_pzzClick {
+    position: absolute;
+    top: 0px;
+    z-index: 1005;
+}
+.ncpt_widget .ncpt_panel {
+    position: relative;
+    width: 320px;
+    height: 32px;
+    border: 1px solid #cbcbcb;
+    border-radius: 90px;
+}
+.ncpt_widget .ncpt_clr {
+    clear: both;
+}
+.ncpt_widget .ncpt_txt_status {
+    text-align: left;
+    color: #fa5b5b;
+    position: absolute;
+    width: 100px;
+    bottom: 0px;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.country {
+    background: url(../images/jlt.png) -457px -90px no-repeat;
+    position: absolute;
+    left: 341px;
+    top: 16px;
+    height: 38px;
+    line-height: 38px;
+    width: 30px;
+    padding: 0 10px;
+    z-index: 999;
+    background-color: #fff;
+}
+.flag-US em {
+    background-position: 0 -44px;
+}
+.country em {
+    margin-top: 16px;
+}
+.country em, .u-country em {
+    background: url(../images/flags.gif) no-repeat;
+    width: 16px;
+    height: 11px;
+    line-height: 11px;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+.m-country .i-inpt {
+    text-indent: 50px;
+}
+.u-country {
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 9999;
+    position: absolute;
+    width: 318px;
+    height: 300px;
+    top: 0;
+    display: block;
+    padding-left: 2px;
+    left: 340px;
+    top: 57px;
+}
+.u-note .changephone {
+    cursor: pointer;
+    color: #4cb5ff;
+}
+.m-opr .u-note {
+    height: 22px;
+    line-height: 22px;
+    color: #999;
+}
+.m-opr .i-inpt.smsize {
+    width: 190px;
+}
+.m-opr .btn-getsms-btndisabled {
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+    cursor: default;
+    background-color: #a1d1f6;
+}
+.m-opr .btn-getsms {
+    float: left;
+    height: 46px;
+    width: 120px;
+    font-size: 16px;
+    line-height: 46px;
+    margin: 12px 0 0 10px;
+    color: #fff;
+    background: #9ec5e3;
+    text-align: center;
+}
+.m-opr .b-btn {
+    float: left;
+    border: 0;
+    width: 322px;
+    height: 46px;
+    margin-top: 12px;
+    background-color: #ca5252;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 46px;
+    cursor: pointer;
+}
+.m-opr .btn-reg.btndisabled {
+    opacity: 0.6;
+    cursor: default;
+}
+.m-opr .btn-getsms-btndisabled:hover {
+    background-color: #a1d1f6;
+}
+.m-opr .btn-getsms:hover {
+    cursor: pointer;
+    background-color: #a1d1f6;
+}
+.m-opr .b-btn:hover {
+    background: #e66363;
+}
+.m-opr .btn-red {
+    background: #ca5252;
+}
+.m-opr .tip {
+    margin-top: 10px;
+    color: #b1b1b1;
+    float: left;
+    width: 322px;
+    font-size: 12px;
+}
+.m-opr .tip a {
+    text-decoration: none;
+    color: #b1b1b1;
+    line-height: 20px;
+}
+.g-in {
+    width: 1000px;
+    margin: 0 auto;
+}
+.m-cp {
+    padding: 30px 0;
+}
+.m-cp p {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.m-cp p, .m-cp p a {
+    color: #b1b1b1;
+}
+.m-cp p a {
+    padding: 0 6px;
+}

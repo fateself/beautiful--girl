@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html class="index-page">
+<head>
+    <meta charset="utf-8">
+    <title>《阴阳师》手游官网_网易和风匠心巨制，开启唯美奇幻之旅</title>
+    <style>
+        .swiper-container {
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            direction: ltr;
+            -webkit-backface-visibility: hidden;
+            -moz-backface-visibility: hidden;
+            -ms-backface-visibility: hidden;
+            -o-backface-visibility: hidden;
+            backface-visibility: hidden;
+            /* Fix of Webkit flickering */
+            z-index: 1;
+        }
+
+        .swiper-wrapper {
+            position: relative;
+            width: 100%;
+            -webkit-transition-property: -webkit-transform, left, top;
+            -webkit-transition-duration: 0s;
+            -webkit-transform: translate3d(0px, 0, 0);
+            -webkit-transition-timing-function: ease;
+
+            -moz-transition-property: -moz-transform, left, top;
+            -moz-transition-duration: 0s;
+            -moz-transform: translate3d(0px, 0, 0);
+            -moz-transition-timing-function: ease;
+
+            -o-transition-property: -o-transform, left, top;
+            -o-transition-duration: 0s;
+            -o-transform: translate3d(0px, 0, 0);
+            -o-transition-timing-function: ease;
+            -o-transform: translate(0px, 0px);
+
+            -ms-transition-property: -ms-transform, left, top;
+            -ms-transition-duration: 0s;
+            -ms-transform: translate3d(0px, 0, 0);
+            -ms-transition-timing-function: ease;
+
+            transition-property: transform, left, top;
+            transition-duration: 0s;
+            transform: translate3d(0px, 0, 0);
+            transition-timing-function: ease;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+
+        .swiper-free-mode > .swiper-wrapper {
+            -webkit-transition-timing-function: ease-out;
+            -moz-transition-timing-function: ease-out;
+            -ms-transition-timing-function: ease-out;
+            -o-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+            margin: 0 auto;
+        }
+
+        .swiper-slide {
+            float: left;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/be.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/bas.css" media="all">
+</head>
+<body>
+<div class="sideNav">
+    <a class="icon_nav totop" href="javascript:void(0)"></a>
+</div>
+
+<div class="wrap">
+    <!-- 公用头部 -->
+    <div class="commonTop">
+        <div class="container">
+            <div class="container">
+                <a class="logo" id="logo1" href="//yys.163.com/index.html" target="_blank"><i></i></a>
+                <ul class="topNav_ul g-clr" id="topNav_ul">
+                    <li class="curr index"><a href="index.html">首页</a><i></i></li>
+                    <li><a href="#" data-channel_id="57cd514394ca6e78ea837ce0">同人绘</a><i></i></li>
+                    <li><a href="#" data-channel_id="57cd51f44836e916b7aed893">同人COS</a><i></i></li>
+                    <li><a href="#" data-channel_id="57cd521994ca6e78f0837ce0">表情包</a><i></i></li>
+                    <li><a href="#" data-channel_id="57cfb15f8617ef3c7f166c4c">大手在寮间</a><i></i></li>
+                </ul>
+                <div class="top_funBox">
+                    <div class="top_loginBox g-clr">
+                <span class="top_spanTxt">
+                    <a href="javascript:popup.showTc('login_tc')" class="loginBtn">登录</a>|
+                    <a href="" class="gw_entrance" target="_blank">拜访官网娘</a>
+                </span>
+
+                        <p class="pUser hide">
+                            欢迎你，<img id="imAvatar" src="" class="user-icon">
+                    <span class="user-name">
+                        <i></i>
+                        <span id="sUsername"></span>
+                        <span class="user-more">
+                            <a href="center.html" class="user-more1">个人中心</a>
+                            <a id="aLogout" href="javascript:void(0);" class="user-more6">安全退出</a>
+                        </span>
+                    </span>
+                        </p>
+                    </div>
+                    <div class="searchBox">
+                        <input type="text" value="请输入关键字"><i></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--顶部轮播-->
+    <div class="topBanner">
+        <div class="mask mask-l"></div>
+        <div class="mask mask-r"></div>
+        <div class="swiper-container" id="topBanner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/21.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/22.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/23.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/24.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/21.jpg" alt=""></div>
+                 <div class="swiper-slide"><img src="images/22.jpg" alt=""></div>
+            </div>
+        </div>
+        <a class="slideBtn prevBtn" href="javascript:void(0);"></a>
+        <a class="slideBtn nextBtn" href="javascript:void(0);"></a>
+
+        <div class="dHots">
+            <h3>图片排行榜</h3>
+
+            <div class="dTabbtn g-clr">
+                <span class="curr" data-channel_id="57cd514394ca6e78ea837ce0">同人绘<i></i></span>
+                <span class="" data-channel_id="57cd51f44836e916b7aed893">同人COS<i></i></span>
+            </div>
+
+            <div class="dTabcon">
+                <ul class="topRank1 curr">
+                    <li class="top"><i>01</i><a target="_blank" href="#">改细节</a>
+
+                        <div class="hotimg"><a target="_blank" href="#">
+                            <img src="images/1.jpg" width="130px"></a></div>
+                    </li>
+                    <li class="hot"><i>02</i><a target="_blank"
+                                                href="pic.html?id=58a126cd8617ef27c1600d0c&amp;image_id=58aa8ef44836e97a2ad84c12">作者：兔槽仙人</a>
+                    </li>
+                    <li class="hot"><i>03</i><a target="_blank"
+                                                href="pic.html?id=58a126cd8617ef27c1600d0c&amp;image_id=58aa8ef88617ef1b23100d15">作者：夜鸮X</a>
+                    </li>
+                    <li><i>04</i><a target="_blank"
+                                    href="pic.html?id=58a126cd8617ef27c1600d0c&amp;image_id=58aa8efb68d7796bff23c4c0">作者：壮壮是个半吊子</a>
+                    </li>
+                    <li><i>05</i><a target="_blank"
+                                    href="pic.html?id=58a126cd8617ef27c1600d0c&amp;image_id=58aa8efbf874e803c4b83af0">作者：做一只独特的老肥</a>
+                    </li>
+                </ul>
+                <ul class="topRank2">
+                    <li class="top"><i>01</i><a target="_blank"
+                                                href="pic.html?id=58a985e394ca6e780b7262ea&amp;image_id=58a98e7cf874e8597764b124">大天狗：@bellababy_彤彤
+                        八百比丘尼：@野猪桃桃宝</a>
+
+                        <div class="hotimg"><a target="_blank"
+                                               href="pic.html?id=58a985e394ca6e780b7262ea&amp;image_id=58a98e7cf874e8597764b124"><img
+                                src="https://g.fp.ps.netease.com/yys-vinci/file/58a98e7c143cfa0dc7825744lh14M85D?fop=imageView/1/w/130/h/80"></a>
+                        </div>
+                    </li>
+                    <li class="hot"><i>02</i><a target="_blank"
+                                                href="pic.html?id=58a985e394ca6e780b7262ea&amp;image_id=58a98e83f874e8597764b125">大天狗：@bellababy_彤彤
+                        八百比丘尼：@野猪桃桃宝</a></li>
+                    <li class="hot"><i>03</i><a target="_blank"
+                                                href="pic.html?id=58a985e394ca6e780b7262ea&amp;image_id=58a98e89f874e8597a64b126">大天狗：@bellababy_彤彤
+                        八百比丘尼：@野猪桃桃宝</a></li>
+                    <li><i>04</i><a target="_blank"
+                                    href="pic.html?id=58a985e394ca6e780b7262ea&amp;image_id=58a98e8f8617ef31c1720eac">大天狗：@bellababy_彤彤
+                        八百比丘尼：@野猪桃桃宝</a></li>
+                    <li><i>05</i><a target="_blank"
+                                    href="pic.html?id=58a985e394ca6e780b7262ea&amp;image_id=58a98fc568d779454e5c9474">作者：梦龙@海温利</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="index_cont">
+            <div class="dSection" id="channelBox_0" data-channel_id="57cd514394ca6e78ea837ce0">
+                <h3 class="hTitle g-clr"><i><img src="images/icon_com_m_literature_hover.png" alt=""></i><em>同人绘</em>
+                </h3>
+
+                <div class="dOpt fr"><a class="aBtn redBtn indexUploadBtn"
+                                        href="javascript:popup.showTc('upload_step1');"
+                                        data-channel_id="57cd514394ca6e78ea837ce0">我要上传&gt;&gt;</a> <a class="moreBtn"
+                                                                                                       href="channel.html?id=57cd514394ca6e78ea837ce0">查看更多</a>
+                </div>
+                <div class="ulImggroup g-clr id_1" data-format="id_1">
+                    <div class="big fl"><a target="_blank"
+                                           href="#"><img
+                            alt=""
+                            src="images/31.jpg"></a>
+
+                        <div>
+                            <em>最火爆</em>
+                        </div>
+                        <span>改细节</span>
+                    </div>
+                    <div class="smalls fr">
+                        <div class="small"><a target="_blank"
+                                              href="#"><img
+                                src="images/32.jpg"></a><span>作者：兔槽仙人</span>
+                        </div>
+                        <div class="small"><a target="_blank"
+                                              href="#"><img
+                                src="images/33.jpg"></a><span>作者：朽鳞_器大活好</span>
+                        </div>
+                        <div class="small"><a target="_blank"
+                                              href="#"><img
+                                src="images/34.jpg"></a><span>作者：朽鳞_器大活好</span>
+                        </div>
+                        <div class="small"><a target="_blank"
+                                              href="#"><img
+                                src="images/35.jpg"></a><span>作者：夜鸮X</span>
+                        </div>
+                        <div class="small"><a target="_blank"
+                                              href="#"><img
+                                src="images/36.jpg"></a><span>作者：壮壮是个半吊子</span>
+                        </div>
+                        <div class="small"><a target="_blank"
+                                              href="#"><img
+                                src="images/37.jpg"></a><span>作者：做一只独特的老肥</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dSection" id="channelBox_1" data-channel_id="57cd51f44836e916b7aed893"><h3 class="hTitle g-clr">
+                <i><img src="images/icon_com_m_cos_hover.png" alt=""></i><em>同人COS</em>
+            </h3>
+
+                <div class="dOpt fr"><a class="aBtn redBtn indexUploadBtn"
+                                        href="javascript:popup.showTc('upload_step1');"
+                                        data-channel_id="57cd51f44836e916b7aed893">我要上传&gt;&gt;</a> <a class="moreBtn"
+                                                                                                       href="channel.html?id=57cd51f44836e916b7aed893">查看更多</a>
+                </div>
+                <div class="ulImggroup g-clr id_2" data-format="id_2">
+                    <div class="big fl"><a 
+                                           href="#"><img
+                            alt=""
+                            src="images/42.jpg"></a>
+
+                        <div><em>最火爆</em></div>
+                        <span>大天狗：@bellababy_彤彤 八百比丘尼：@野猪桃桃宝</span></div>
+                    <div class="smalls fr">
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/35.jpg"></a><span>大天狗：@bellababy_彤彤 八百比丘尼：@野猪桃桃宝</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/36.jpg"></a><span>大天狗：@bellababy_彤彤 八百比丘尼：@野猪桃桃宝</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/37.jpg"></a><span>大天狗：@bellababy_彤彤 八百比丘尼：@野猪桃桃宝</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/38.jpg"></a><span>大天狗：@bellababy_彤彤 八百比丘尼：@野猪桃桃宝</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/39.jpg"></a><span></span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/34.jpg"></a><span>雪女：九夜兔兔兔_</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/33.jpg"></a><span>雪女：九夜兔兔兔_</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/32.jpg"></a><span>雪女：九夜兔兔兔_</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dSection" id="channelBox_2" data-channel_id="57cd521994ca6e78f0837ce0"><h3 class="hTitle g-clr">
+                <i><img src="https://yys.res.netease.com/pc/zt/20160830161224/data/img/icon_com_m_emoticon_hover.png"
+                        alt=""></i><em>表情包</em></h3>
+
+                <div class="dOpt fr"><a class="aBtn redBtn indexUploadBtn"
+                                        href="javascript:popup.showTc('upload_step1');"
+                                        data-channel_id="57cd521994ca6e78f0837ce0">我要上传&gt;&gt;</a> <a class="moreBtn"
+                                                                                                       href="channel.html?id=57cd521994ca6e78f0837ce0">查看更多</a>
+                </div>
+                <div class="ulImggroup g-clr id_3" data-format="id_3">
+                    <div class="list_item"><a 
+                                              href="#">
+                        <img src="images/01.jpg">
+                    </a> <span>作者：老鼠夫斯基</span></div>
+                    <div class="list_item"><a 
+                                              href="#">
+                        <img src="images/02.jpg">
+                    </a> <span>作者：老鼠夫斯基</span></div>
+                    <div class="list_item"><a 
+                                              href="#">
+                        <img src="images/03.jpg">
+                    </a> <span>作者：老鼠夫斯基</span></div>
+                    <div class="list_item"><a 
+                                              href="#">
+                        <img src="images/04.jpg">
+                    </a> <span>作者：老鼠夫斯基</span></div>
+                    <div class="list_item"><a 
+                                              href="#">
+                        <img src="images/05.jpg">
+                    </a> <span>作者：老鼠夫斯基</span></div>
+                </div>
+            </div>
+            <div class="dSection" id="channelBox_3" data-channel_id="57cfb15f8617ef3c7f166c4c"><h3 class="hTitle g-clr">
+                <i><img src="https://yys.res.netease.com/pc/zt/20160830161224/data/img/icon_com_m_gong_hover.png"
+                        alt=""></i><em>大手在寮间</em></h3>
+
+                <div class="dOpt fr"><a class="aBtn redBtn indexUploadBtn"
+                                        href="javascript:popup.showTc('upload_step1');"
+                                        data-channel_id="57cfb15f8617ef3c7f166c4c">我要上传&gt;&gt;</a> <a class="moreBtn"
+                                                                                                       href="channel.html?id=57cfb15f8617ef3c7f166c4c">查看更多</a>
+                </div>
+                <div class="ulImggroup g-clr id_2" data-format="id_2">
+                    <div class="big fl"><a 
+                                      href="#"><img
+                            alt=""
+                            src="images/42.jpg"></a>
+
+                        <div><em>最火爆</em></div>
+                        <span>作者：木咚木咚</span></div>
+                    <div class="smalls fr">
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/41.jpg"></a><span>作者：木咚木咚</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/40.jpg"></a><span>作者：木咚木咚</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/39.jpg"></a><span>作者：木咚木咚</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/38.jpg"></a><span>作者：水画夜路</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/37.jpg"></a><span>作者：水画夜路</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/36.jpg"></a><span>作者：水画夜路</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/35.jpg"></a><span>作者：水画夜路</span>
+                        </div>
+                        <div class="small"><a 
+                                              href="#"><img
+                                src="images/42.jpg"></a><span>作者：水画夜路</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--须知-->
+        <div class="dSection" id="info">
+            <p class="p-tit">图库审核须知：</p>
+
+            <div class="txt">
+                <p>1、上传图片需经过后台工作人员审核，审核通过才能显示在页面上；</p>
+
+                <p>2、请勿上传含暴力、血腥、色情等违法违规作品，请上传原创作品；</p>
+
+                <p>3、请共同监督，如发现有非原创作品（非作者本人上传没有指明出处和作者，抄袭行为等）请联系官方微博 @网易阴阳师手游 进行举报；</p>
+
+                <p>4、上传非原创作品将受到以下处罚：删除作品、取消作者游戏测试名额（若有）、取消作者周边奖励（若有）、取消作者及作品推荐等； </p>
+
+                <p>5、本平台为玩家公众平台，玩家上传内容不代表官方立场，因此在不触及基本法律法规和对《阴阳师》手游产生负面影响的情况下，理论上不限制玩家所上传的内容。</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<footer class="footer">
+            <div id="NIE-copyRight"><p id="NIE-copyRight-corp" style="width:100%;text-align:center;margin:0 auto;padding:15px 0 0 0;font-size:12px;font-family:'宋体';line-height:20px;display:block;position:relative;"><span style="position:relative;vertical-align:top;top:4px;display:inline-block;position:relative;"><a href="http://www.163.com" target="_blank" style="width:118px;height:31px;padding-right:0;display:inline-block;cursor:pointer;background:url(http://res.nie.netease.com/comm/NIE_copyRight/images/netease.2.png) no-repeat"></a><a href="http://game.163.com" target="_blank" style="width:134px;height:31px;padding-right:15px;display:inline-block;cursor:pointer;background:url(http://res.nie.netease.com/comm/NIE_copyRight/images/nie.2.png) no-repeat"></a></span><span style="text-align:left;display:inline-block;padding-left:6px;"><span id="ncp-l1"><a href="http://gb.corp.163.com/gb/about/overview.html" target="_blank">公司简介</a> - <a href="http://help.163.com/" target="_blank">客户服务</a> - <a href="http://gb.corp.163.com/gb/legal.html" target="_blank">相关法律</a> - <a href="http://game.163.com/about/about.html" target="_blank">网易游戏</a> - <a href="http://game.163.com/about/contactus.html" target="_blank">联系我们</a> - <a href="http://game.163.com/bs/business.html" target="_blank">商务合作</a> - <a href="http://game.163.com/job/" target="_blank">加入我们</a></span><br><span id="ncp-l2">网易公司版权所有 ©1997-2017　　粤网文[2014]0636-236号  </span></span></p></div>
+        </footer>
+
+<div class="com_mask"></div>
+<div class="sideNav">
+            <!--<a href="#channel1" class="icon_nav" id="nav_trwx" alt="同人绘" title="同人绘"></a>-->
+            <!--<a href="#channel2" class="icon_nav" id="nav_trhh" alt="同人cos" title="同人cos"></a>-->
+            <!--<a href="#channel3" class="icon_nav" id="nav_cos" alt="表情包" title="表情包"></a>-->
+            <!--<a href="#channel5" class="icon_nav" id="nav_gong" alt="大手在寮间" title="大手在寮间"></a>-->
+            <!--<a href="#channelBox_0" class="icon_nav" alt="同人绘" title="同人绘">-->
+                <!--<i class="nor"><img src="https://yys.res.netease.com/pc/zt/20160830161224/img/icon_com_m_literature_9495077.png" alt=""/></i>-->
+                <!--<i class="hov"><img src="https://yys.res.netease.com/pc/zt/20160830161224/img/icon_com_m_literature_hover_925e0b2.png" alt=""/></i>-->
+            <!--</a>-->
+            <a href="#channelBox_0" class="icon_nav" alt="同人绘" title="同人绘">
+            <i class="nor"><img src="images/icon_com_m_literature.png" alt=""></i>
+            <i class="hov"><img src="images/icon_com_m_literature_hover.png" alt=""></i>
+            </a><a href="#channelBox_1" class="icon_nav" alt="同人COS" title="同人COS">
+            <i class="nor"><img src="images/icon_com_m_cos.png" alt=""></i>
+            <i class="hov"><img src="images/icon_com_m_cos_hover.png" alt=""></i></a>
+            <a href="#channelBox_2" class="icon_nav" alt="表情包" title="表情包">
+            <i class="nor"><img src="images/icon_com_m_emoticon.png" alt=""></i>
+            <i class="hov"><img src="images/icon_com_m_emoticon_hover.png" alt=""></i>
+            </a><a href="#channelBox_3" class="icon_nav" alt="大手在寮间" title="大手在寮间">
+            <i class="nor"><img src="images/icon_com_m_gong.png" alt=""></i>
+            <i class="hov"><img src="images/icon_com_m_gong_hover.png" alt=""></i></a>
+            <a class="icon_nav totop" href="javascript:void(0)"></a>
+        </div>
+
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+	$(function(){
+		$(".smalls img").css("width","140px")
+		$(".big img").css("width","280px")
+		var a  = 0;
+		$(".nextBtn").click(function(){
+			if(a == 4){
+				$(".swiper-wrapper").css("left",0+"px")
+				a = 0;
+			}
+			a++;
+			$(".swiper-wrapper").animate({"left":-a*1000+"px"})
+			
+		})
+		$(".prevBtn").click(function(){
+			a--;
+			$(".swiper-wrapper").animate({"left":-a*1000+"px"})
+			if(a==0 ){
+				$(".swiper-wrapper").css("left",4000+"px")
+				a = 5
+			}
+		})
+		var timer = setInterval(function(){
+				$(".nextBtn").click()
+		},1500);
+		$(".topBanner").mouseenter(function(){
+				clearInterval(timer);
+		})
+		$(".topBanner").mouseleave(function(){
+				timer = setInterval(function(){
+				$(".nextBtn").click()
+		},1500)
+		})
+		$(window).scroll(function(){
+			if(($(window).height()/3) < $(window).scrollTop()){
+			$(".sideNav").slideDown()
+		}else{
+			$(".sideNav").hide()
+		}
+		})
+	})
+    
+</script>
+</body>
+</html>
